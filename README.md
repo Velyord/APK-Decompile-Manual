@@ -6,19 +6,19 @@ __________________________________
 Стъпка по стъпка:
 
 Извличане на dex файловете от apk файл:<br>
-	Снабдяване с apk файл     //example.apk<br>
-	Преименува се разширението на zip     //example.zip<br>
-	Разархивира се zip файла<br>
-	Копират се файловете с имена classes и разширения dex     //classes.dex, classes2.dex ... classesN.dex<br>
+    * Снабдяване с apk файл     //example.apk<br>
+    * Преименува се разширението на zip     //example.zip<br>
+    * Разархивира се zip файла<br>
+    * Копират се файловете с имена classes и разширения dex     //classes.dex, classes2.dex ... classesN.dex<br>
 
 Превръщане на dex файловете в jar файлове:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Инсталира се:<br> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dex2jar-2.0<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Поставят се копираните (dex) файлове вътре в папката на dex2jar     //където са bat файловете<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Отваря се cmd<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Отива се в директорията на dex2jar<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Изпълнява се:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d2j-dex2jar.bat classes.dex     //така за всеки dex файл<br>
+	Инсталира се:<br> 
+		dex2jar-2.0<br>
+	Поставят се копираните (dex) файлове вътре в папката на dex2jar     //където са bat файловете<br>
+	Отваря се cmd<br>
+		Отива се в директорията на dex2jar<br>
+		Изпълнява се:<br>
+				d2j-dex2jar.bat classes.dex     //така за всеки dex файл<br>
 
 Получените jar файлове се декомпилират, за да се извлекат java файловете:<br>
 	Инсталира се:<br>
