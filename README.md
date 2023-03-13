@@ -6,7 +6,7 @@ __________________________________
 Стъпка по стъпка:
 
 Извличане на dex файловете от apk файл:<br>
- Снабдяване с apk файл     //example.apk<br>
+    Снабдяване с apk файл     //example.apk<br>
  Преименува се разширението на zip     //example.zip<br>
  Разархивира се zip файла<br>
  Копират се файловете с имена classes и разширения dex     //classes.dex, classes2.dex ... classesN.dex<br>
